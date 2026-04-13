@@ -105,4 +105,43 @@ nav {
   border: none;
   border-radius: 5px;
   color: white;
+}
+
+.section2 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+}
+.section2 h1 {
+  text-align: center;
+  padding: 15px;
+}
+.section2 p {
+  text-align: center;
+}
+.section2 .cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.section2 .box {
+  width: 310px;
+}
+.section2 .bolo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #8EC2F2;
+  border-radius: 5px;
+}
+.section2 .poyon {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: start;
+  align-items: start;
+}
+.section2 .kabud {
+  color: #23a6f0;
 }/*# sourceMappingURL=style.css.map */
