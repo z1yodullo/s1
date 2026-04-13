@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+$bl: #23a6f0;
+.hero {
+  background-image: url(hero-cover.5.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: white;
+}
+.prav {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    background-color: $bl;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+}
+nav {
+  display: flex;
+  gap: 50px;
+}
+.nest {
+  display: none;
+}
+.section1{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 83px 0px;
+}
+.proz{
+    background-color: rgba(0, 0, 0, 0.462);
+}
+.chap{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 58px;
+    }
+    .butt{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+    .get{
+        background-color: $bl;
+        padding: 10px 15px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+    }
+    .learn{
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 10px 15px;
+        border-radius: 30px;
+        color: white;
+    }
+
+}
+.rost{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    input{
+        height: 40px;
+    }
+    .book{
+        background-color: $bl;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+}
