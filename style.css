@@ -178,4 +178,34 @@ nav {
   gap: 20px;
   align-items: center;
   align-items: start;
+}
+
+.section4 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+}
+.section4 h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+}
+.section4 p {
+  text-align: center;
+}
+.section4 .the {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.section4 .th {
+  width: 300px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  box-shadow: 0px 0px 10px 0px gray;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
