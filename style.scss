@@ -2,8 +2,8 @@
   margin: 0;
 }
 $bl: #23a6f0;
-$gol:#8EC2F2;
-$bg:#FAFAFA;
+$gol: #8ec2f2;
+$bg: #fafafa;
 .hero {
   background-image: url(hero-cover.5.jpg);
   background-size: cover;
@@ -39,165 +39,238 @@ nav {
 .nest {
   display: none;
 }
-.section1{
+.section1 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 83px 0px;
+}
+.proz {
+  background-color: rgba(0, 0, 0, 0.462);
+}
+.chap {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 58px;
+  }
+  .butt {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  .get {
+    background-color: $bl;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+  }
+  .learn {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+  }
+}
+.rost {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  input {
+    height: 40px;
+  }
+  .book {
+    background-color: $bl;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+}
+.section2 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+  h1 {
+    text-align: center;
+    padding: 15px;
+  }
+  p {
+    text-align: center;
+  }
+  .cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+  }
+  .box {
+    width: 290px;
+    border: 1px solid $bl;
+    border-radius: 10px;
+  }
+  .bolo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: $gol;
+    border-radius: 5px;
+  }
+  .poyon {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: start;
+    align-items: start;
+  }
+  .kabud {
+    color: $bl;
+  }
+}
+.section3 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+  h1 {
+    text-align: center;
+    padding: 15px;
+  }
+  p {
+    text-align: center;
+  }
+  .cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    p {
+      text-align: start;
+    }
+  }
+  .star {
+    width: 220px;
+    padding: 30px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-items: start;
+  }
+}
+.section4 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+  h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+  }
+  p {
+    text-align: center;
+  }
+  .the {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .th {
+    width: 300px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    box-shadow: 0px 0px 10px 0px gray;
+    padding: 20px;
+  }
+}
+.section5 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+  h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+  }
+  p {
+    text-align: center;
+  }
+  .surat {
+    padding: 50px 0px;
+    margin: 0px 100px;
+  }
+}
+.section6 {
+  background-color: #252b42;
+  .drun {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-size: 40px;
+      padding: 15px;
+    }
+    .inp {
+      display: flex;
+      align-items: center;
+      input {
+        height: 56px;
+        border: none;
+        border-radius: 5px 0px 0px 5px;
+        width: 350px;
+      }
+      button {
+        background-color: $bl;
+        color: white;
+        border: none;
+        height: 58px;
+        border-radius: 0px 5px 5px 0px;
+      }
+    }
+  }
+}
+footer {
+  padding: 50px 0px;
+  padding-bottom: 0px;
+  .oxir {
+    padding: 30px;
+
+    text-align: center;
+  }
+  .footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 83px 0px;
-}
-.proz{
-    background-color: rgba(0, 0, 0, 0.462);
-}
-.chap{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    p{
-        font-size: 20px;
-    }
-    h1{
-        font-size: 58px;
-    }
-    .butt{
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-    }
-    .get{
-        background-color: $bl;
-        padding: 10px 15px;
-        border-radius: 30px;
-        border: none;
-        color: white;
-    }
-    .learn{
-        background-color: transparent;
-        border: 2px solid white;
-        padding: 10px 15px;
-        border-radius: 30px;
-        color: white;
-    }
-
-}
-.rost{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 30px;
+  }
+  .i {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    input{
-        height: 40px;
-    }
-    .book{
-        background-color: $bl;
-        padding: 15px;
-        border: none;
-        border-radius: 5px;
-        color: white;
-    }
-}
-.section2{
-    max-width: 1200px;
-    margin: auto;
-    padding: 80px 0px;
-    h1{
-        text-align: center;
-        padding: 15px;
-    }
-    p{
-        text-align: center;
-    }
-    .cont{
-        display: flex;
-        justify-content: space-between;
-        padding: 50px 0px;
-    }
-    .box{
-        width: 290px;
-        border: 1px solid $bl;
-        border-radius: 10px;
-    }
-    .bolo{
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        background-color: $gol;
-        border-radius: 5px;
-    }
-    .poyon{
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        text-align: start;
-        align-items: start;
-    }
-    .kabud{
-        color: $bl;
-    }
-}
-.section3{
-    max-width: 1200px;
-    margin: auto;
-    padding: 80px 0px;
-    h1{
-        text-align: center;
-        padding: 15px;
-    }
-    p{
-        text-align: center;
-    }
-    .cont{
-        display: flex;
-        justify-content: space-between;
-        padding: 50px 0px;
-        p{
-            text-align: start;
-        }
-    }
-    .star{
-        width: 220px;
-        padding: 30px;
-        border: 1px solid #DEDEDE;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        align-items:center;
-        align-items: start;
-    }
-}
-.section4{
-    max-width: 1200px;
-    margin: auto;
-    padding: 80px 0px;
-    h1{
-        text-align: center;
-        padding: 15px;
-        font-size: 40px;
-    }
-    p{
-        text-align: center;
-    }
-    .the{
-        display: flex;
-        gap: 50px;
-        flex-wrap: wrap;
-        margin: 20px auto;
-        justify-content: center;
-        padding: 50px 0px;
-    }
-    .th{
-        width: 300px;
-        display: flex;
-        align-items: start;
-        gap: 10px;
-        box-shadow: 0px 0px 10px 0px gray;
-        padding: 20px;
-    }
+  }
+  p {
+    text-align: start;
+    padding: 0px;
+  }
 }

@@ -133,7 +133,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #8EC2F2;
+  background-color: #8ec2f2;
   border-radius: 5px;
 }
 .section2 .poyon {
@@ -171,7 +171,7 @@ nav {
 .section3 .star {
   width: 220px;
   padding: 30px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -208,4 +208,80 @@ nav {
   gap: 10px;
   box-shadow: 0px 0px 10px 0px gray;
   padding: 20px;
+}
+
+.section5 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+}
+.section5 h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+}
+.section5 p {
+  text-align: center;
+}
+.section5 .surat {
+  padding: 50px 0px;
+  margin: 0px 100px;
+}
+
+.section6 {
+  background-color: #252b42;
+}
+.section6 .drun {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section6 .drun h1 {
+  font-size: 40px;
+  padding: 15px;
+}
+.section6 .drun .inp {
+  display: flex;
+  align-items: center;
+}
+.section6 .drun .inp input {
+  height: 56px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  width: 350px;
+}
+.section6 .drun .inp button {
+  background-color: #23a6f0;
+  color: white;
+  border: none;
+  height: 58px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+  padding: 50px 0px;
+  padding-bottom: 0px;
+}
+footer .oxir {
+  padding: 30px;
+  text-align: center;
+}
+footer .footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .i {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer p {
+  text-align: start;
+  padding: 0px;
 }/*# sourceMappingURL=style.css.map */
