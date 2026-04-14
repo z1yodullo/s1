@@ -117,7 +117,9 @@ nav {
         padding: 50px 0px;
     }
     .box{
-        width: 310px;
+        width: 290px;
+        border: 1px solid $bl;
+        border-radius: 10px;
     }
     .bolo{
         display: flex;
@@ -127,7 +129,7 @@ nav {
         border-radius: 5px;
     }
     .poyon{
-        padding: 20px 0px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -136,5 +138,36 @@ nav {
     }
     .kabud{
         color: $bl;
+    }
+}
+.section3{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0px;
+    h1{
+        text-align: center;
+        padding: 15px;
+    }
+    p{
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0px;
+        p{
+            text-align: start;
+        }
+    }
+    .star{
+        width: 220px;
+        padding: 30px;
+        border: 1px solid #DEDEDE;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items:center;
+        align-items: start;
     }
 }

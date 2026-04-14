@@ -125,7 +125,9 @@ nav {
   padding: 50px 0px;
 }
 .section2 .box {
-  width: 310px;
+  width: 290px;
+  border: 1px solid #23a6f0;
+  border-radius: 10px;
 }
 .section2 .bolo {
   display: flex;
@@ -135,7 +137,7 @@ nav {
   border-radius: 5px;
 }
 .section2 .poyon {
-  padding: 20px 0px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -144,4 +146,36 @@ nav {
 }
 .section2 .kabud {
   color: #23a6f0;
+}
+
+.section3 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+}
+.section3 h1 {
+  text-align: center;
+  padding: 15px;
+}
+.section3 p {
+  text-align: center;
+}
+.section3 .cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.section3 .cont p {
+  text-align: start;
+}
+.section3 .star {
+  width: 220px;
+  padding: 30px;
+  border: 1px solid #DEDEDE;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  align-items: start;
 }/*# sourceMappingURL=style.css.map */
